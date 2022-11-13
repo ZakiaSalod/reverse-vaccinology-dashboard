@@ -1,0 +1,7 @@
+﻿id	label	x	y	cluster	weight<Links>	weight<Total link strength>	weight<Citations>
+8915	"doytchinova, i.a., flower, d.r., vaxijen: a server for prediction of protective antigens, tumour antigens and subunit vaccines (2007) bmc bioinform, 8, p. 4"	1.1678	0.0054	2	2	3	20
+8939	"doytchinova, i.a., flower, d.r., vaxijen: a server for prediction of protective antigens, tumour antigens and subunit vaccines (2007) bmc bioinformatics, 8, p. 4"	-0.8254	-0.1224	1	4	7	28
+27925	"rappuoli, r., reverse vaccinology (2000) curr opin microbiol, 3, pp. 445-450"	-0.7497	0.1703	1	3	10	31
+27940	"rappuoli, r., reverse vaccinology (2000) curr. opin. microbiol., 3, pp. 445-450"	0.6216	-0.0448	2	4	16	38
+27957	"rappuoli, r., reverse vaccinology, a genome-based approach to vaccine development (2001) vaccine, 19, pp. 2688-2691"	-0.349	-0.1018	1	4	16	39
+30867	"sette, a., rappuoli, r., reverse vaccinology: developing vaccines in the era of genomics (2010) immunity, 33, pp. 530-541"	0.1347	0.0933	2	5	18	28

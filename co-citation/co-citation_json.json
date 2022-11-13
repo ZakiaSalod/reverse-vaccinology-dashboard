@@ -1,0 +1,135 @@
+﻿{
+	"network": {
+		"items": [
+			{
+				"id": 8915,
+				"label": "doytchinova, i.a., flower, d.r., vaxijen: a server for prediction of protective antigens, tumour antigens and subunit vaccines (2007) bmc bioinform, 8, p. 4",
+				"x": 1.1678,
+				"y": 0.0054,
+				"cluster": 2,
+				"weights": {
+					"Links": 2.0000,
+					"Total link strength": 3.0000,
+					"Citations": 20.0000
+				}
+			},
+			{
+				"id": 8939,
+				"label": "doytchinova, i.a., flower, d.r., vaxijen: a server for prediction of protective antigens, tumour antigens and subunit vaccines (2007) bmc bioinformatics, 8, p. 4",
+				"x": -0.8254,
+				"y": -0.1224,
+				"cluster": 1,
+				"weights": {
+					"Links": 4.0000,
+					"Total link strength": 7.0000,
+					"Citations": 28.0000
+				}
+			},
+			{
+				"id": 27925,
+				"label": "rappuoli, r., reverse vaccinology (2000) curr opin microbiol, 3, pp. 445-450",
+				"x": -0.7497,
+				"y": 0.1703,
+				"cluster": 1,
+				"weights": {
+					"Links": 3.0000,
+					"Total link strength": 10.0000,
+					"Citations": 31.0000
+				}
+			},
+			{
+				"id": 27940,
+				"label": "rappuoli, r., reverse vaccinology (2000) curr. opin. microbiol., 3, pp. 445-450",
+				"x": 0.6216,
+				"y": -0.0448,
+				"cluster": 2,
+				"weights": {
+					"Links": 4.0000,
+					"Total link strength": 16.0000,
+					"Citations": 38.0000
+				}
+			},
+			{
+				"id": 27957,
+				"label": "rappuoli, r., reverse vaccinology, a genome-based approach to vaccine development (2001) vaccine, 19, pp. 2688-2691",
+				"x": -0.3490,
+				"y": -0.1018,
+				"cluster": 1,
+				"weights": {
+					"Links": 4.0000,
+					"Total link strength": 16.0000,
+					"Citations": 39.0000
+				}
+			},
+			{
+				"id": 30867,
+				"label": "sette, a., rappuoli, r., reverse vaccinology: developing vaccines in the era of genomics (2010) immunity, 33, pp. 530-541",
+				"x": 0.1347,
+				"y": 0.0933,
+				"cluster": 2,
+				"weights": {
+					"Links": 5.0000,
+					"Total link strength": 18.0000,
+					"Citations": 28.0000
+				}
+			}
+		],
+		"links": [
+			{
+				"source_id": 8915,
+				"target_id": 27940,
+				"strength": 2.0000
+			},
+			{
+				"source_id": 8915,
+				"target_id": 30867,
+				"strength": 1.0000
+			},
+			{
+				"source_id": 8939,
+				"target_id": 27925,
+				"strength": 2.0000
+			},
+			{
+				"source_id": 8939,
+				"target_id": 27940,
+				"strength": 1.0000
+			},
+			{
+				"source_id": 8939,
+				"target_id": 27957,
+				"strength": 3.0000
+			},
+			{
+				"source_id": 8939,
+				"target_id": 30867,
+				"strength": 1.0000
+			},
+			{
+				"source_id": 27925,
+				"target_id": 27957,
+				"strength": 3.0000
+			},
+			{
+				"source_id": 27925,
+				"target_id": 30867,
+				"strength": 5.0000
+			},
+			{
+				"source_id": 27940,
+				"target_id": 27957,
+				"strength": 6.0000
+			},
+			{
+				"source_id": 27940,
+				"target_id": 30867,
+				"strength": 7.0000
+			},
+			{
+				"source_id": 27957,
+				"target_id": 30867,
+				"strength": 4.0000
+			}
+		]
+	}
+}
