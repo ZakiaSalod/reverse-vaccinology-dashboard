@@ -1,5 +1,6 @@
 streamlit_option_menu
-PIL
+Pillow
+openpyxl
 pandas
 numpy
 plotly
