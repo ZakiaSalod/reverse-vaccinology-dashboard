@@ -222,7 +222,7 @@ elif selected == "Authors":
  </div><br>"""
  st.markdown(subheading_for_category,unsafe_allow_html=True)
  df = pd.read_excel("authors/top-10-authors.xlsx")
- fig=px.bar(df,x="Number of publications",y="Author", text="Number of publications", color_discrete_sequence=["#800000"], width=800, height=700, orientation = "h", title="Top 10 authors in reverse vaccinology research, 2000 to 2021")
+ fig=px.bar(df,x="Number of publications",y="Author", text="Number of publications", color_discrete_sequence=["#800000"], width=800, height=1000, orientation = "h", title="Top 10 authors in reverse vaccinology research, 2000 to 2021")
  fig.update_layout(xaxis=dict(showgrid=False),
               yaxis=dict(showgrid=False, automargin=True)
  )
@@ -239,7 +239,7 @@ elif selected == "Institutions":
  </div><br>"""
  st.markdown(subheading_for_category,unsafe_allow_html=True)
  df = pd.read_excel("institutions/top-10-institutions.xlsx")
- fig=px.bar(df,x="Number of publications",y="Institution", text="Number of publications", color_discrete_sequence=["#800000"], width=800, height=700, orientation = "h", title="Top 10 productive institutions in reverse vaccinology research, 2000 to 2021")
+ fig=px.bar(df,x="Number of publications",y="Institution", text="Number of publications", color_discrete_sequence=["#800000"], width=800, height=1000, orientation = "h", title="Top 10 productive institutions in reverse vaccinology research, 2000 to 2021")
  fig.update_layout(xaxis=dict(showgrid=False),
               yaxis=dict(showgrid=False, automargin=True)
  )
@@ -288,7 +288,7 @@ elif selected == "Funding Sponsors":
  </div><br>"""
  st.markdown(subheading_for_category,unsafe_allow_html=True)
  df = pd.read_excel("funding-sponsors/top-10-funding-sponsors.xlsx")
- fig=px.bar(df,x="Number of publications",y="Funding sponsor", text="Number of publications", color_discrete_sequence=["#800000"], width=800, height=700, orientation = "h", title="Top 10 funding sponsors of reverse vaccinology publications, 2000 to 2021")
+ fig=px.bar(df,x="Number of publications",y="Funding sponsor", text="Number of publications", color_discrete_sequence=["#800000"], width=800, height=1000, orientation = "h", title="Top 10 funding sponsors of reverse vaccinology publications, 2000 to 2021")
  fig.update_layout(xaxis=dict(showgrid=False),
               yaxis=dict(showgrid=False, automargin=True)
  )
